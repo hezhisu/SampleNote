@@ -6,5 +6,6 @@ package com.cdut.note;
  */
 public class AppConfig {
     public static final String APP_CONFIG_PATH = android.os.Environment.getExternalStorageState() + "note/";
+    public static final String IMAGE_CACHE = APP_CONFIG_PATH + "image_cache";
 
 }
